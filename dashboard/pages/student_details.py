@@ -164,7 +164,7 @@ def load_student(n_clicks, student_id: str):
         ],
         sort_action="native",
         page_size=15,
-    )
+    )   
 
     enr_section = dbc.Card([
         dbc.CardHeader("📚 Enrollment & Grade History"),
